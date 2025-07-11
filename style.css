@@ -38,12 +38,12 @@ ul {
 }
 
 .btn-primary {
-    background-color: rgba(78, 71, 255, 1);
+   background-color: rgba(78, 71, 255, 1);
     color: white;
-    height: 48px;
-    width: 132px;
-    border: none;
     border-radius: 10px;
+    width: 132px;
+    height: 48px;
+    border: none;
     font-weight: bold;
 }
 
@@ -71,7 +71,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px;
+    padding: 120px;
 
 }
 
@@ -181,9 +181,10 @@ ul {
     color: rgba(0, 0, 0, 0.5);
 }
 
-.webflow-titel{
-  text-align: center;
+
+ .webflow-titel{
   padding:20px;
+  text-align: center;
 }
 
 .webflow-titel h4{
@@ -199,8 +200,8 @@ ul {
     width: 840px;
     height: 364px;
     border-radius: 48px;
-    margin: 20px 350px;
-}
+    margin: 0 325px  ;
+} 
 
 .form{
     display: flex;
@@ -235,4 +236,39 @@ input[type="Email"],input[type="text"],input[type="massege"]{
 input[type="massege"]{
     height: 135px;
     
+}
+
+.Submit{
+    width: 547px;
+    height: 62px;
+}
+
+.footer{
+    text-align: center;
+    padding: 50px;
+}
+.footer-logo{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: 10px;
+}
+
+.footer p{
+    color: rgba(137, 135, 161, 1);
+    font-size: 20px;
+}
+
+.list ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: #8987A1;
+    padding: 0 10px;
+
 }
