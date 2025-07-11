@@ -6,7 +6,7 @@
     font-style: normal;
 }
  main{
-   background-color: rgb(250, 253, 255);
+   background-color: rgb(236, 242, 247);
  }
 
 .background-image {
@@ -157,6 +157,7 @@ ul {
     border: 10px;
     border: 1px solid rgba(242, 237, 237, 1);
     padding: 10px;
+   
 }
 
 .reviewer-card {
@@ -181,27 +182,35 @@ ul {
     color: rgba(0, 0, 0, 0.5);
 }
 
-
- .webflow-titel{
-  padding:20px;
+  .webflow{
+    margin: 100px;
+    padding: 80px 150px;
+    background-color: white;
+    border-radius: 10px;
+}
+ .webflow-body { 
   text-align: center;
+   padding: 20px 50px ;
 }
 
-.webflow-titel h4{
+.webflow button{
+    padding: auto 0;
+}
+.img-webflow{
+    display: flex;
+    justify-content: center;
+}
+.webflow-body h1{
     font-size: 50px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.webflow-titel p{
+.webflow-body p{
   color: rgba(0, 0, 0, 0.5);
+  
 }
-.webflow img {
-    width: 840px;
-    height: 364px;
-    border-radius: 48px;
-    margin: 0 325px  ;
-} 
+
 
 .form{
     display: flex;
