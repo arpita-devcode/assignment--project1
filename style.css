@@ -1,90 +1,104 @@
-.font-style{
-  
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+.font-style {
+
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
+ main{
+   background-color: rgb(250, 253, 255);
+ }
 
-
-.background-image{
+.background-image {
     background-image: url(images/Hero-bg.png);
     height: 698px;
     width: 100%;
 
 }
 
-nav{
-    padding: 10px 50px 0 ;
+nav {
+    padding: 10px 50px 0;
 }
-nav ul{
+
+nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 150px;
 }
-ul{
+
+ul {
     list-style: none;
 }
-.logo-primary{
+
+.logo-primary {
     font-size: 34px;
     font-weight: 800;
     color: rgba(78, 71, 255, 1);
 }
-.btn-primary{
-    background-color:rgba(78, 71, 255, 1) ;
+
+.btn-primary {
+    background-color: rgba(78, 71, 255, 1);
     color: white;
     height: 48px;
-    width: 132px; 
+    width: 132px;
     border: none;
     border-radius: 10px;
     font-weight: bold;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: white;
-    color:rgba(78, 71, 255, 1) ;
+    color: rgba(78, 71, 255, 1);
     border: 1px solid #4E47FF;
 }
-.titel-header-ui{
+
+.titel-header-ui {
     font-size: 65px;
     font-weight: bold;
     text-align: center;
     margin-bottom: 15px;
 }
-.titel-header{
-    padding: 120px 267px 152px 267px ;
+
+.titel-header {
+    padding: 120px 267px 152px 267px;
     text-align: center;
 }
 
 
 
-.see-it-in{
+.see-it-in {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 100px;
-   
+
 }
-.picture-web{
+
+.picture-web {
     border-radius: 48px;
     height: 328px;
     width: 403px;
 }
-.action-body{
+
+.action-body {
     padding: auto;
 }
 
-.action-header{
+.action-header {
     font-size: 42px;
     font-weight: bold;
-} 
+    margin-bottom: 10px;
+}
 
-.action-description{
+.action-description {
     font-size: 24px;
     color: rgba(37, 36, 50, 0.5);
+
 }
-.action-button{
-    background-color:rgba(78, 71, 255, 1) ;
+
+.action-button {
+    background-color: rgba(78, 71, 255, 1);
     color: white;
     border-radius: 10px;
     width: 230px;
@@ -92,71 +106,98 @@ ul{
     border: none;
     font-weight: bold;
 }
-.action-button:hover{
-     background-color: white;
-    color:rgba(78, 71, 255, 1) ;
-    border: 1px solid #4E47FF ;
+
+.action-button:hover {
+    background-color: white;
+    color: rgba(78, 71, 255, 1);
+    border: 1px solid #4E47FF;
 }
-.user-column{
-   background-color: rgba(78, 71, 255, 0.1);
+
+.user-column {
+    background-color: rgba(78, 71, 255, 0.1);
     margin: 100px;
     padding: 30px;
 }
-.user-titel{
+
+.user-titel {
     text-align: center;
     font-size: 38px;
     font-weight: bold;
 }
-.user-statistic{
+
+.user-statistic {
     display: flex;
     justify-content: space-around;
 }
 
-.user-number{
+.user-number {
     font-size: 80px;
     font-weight: bold;
-    color:#4E47FF ;
-    
+    color: #4E47FF;
+    margin-bottom: 10px;
 }
-.number-description{
+
+.number-description {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     text-align: center;
 }
 
-.user-says-titel{
+.user-says-titel {
     font-size: 42px;
     font-weight: bold;
     text-align: center;
 }
- .user-container{
-    height:243px ;
+
+.user-container {
+    height: 243px;
     width: 366px;
-    gap:24px ;
+    gap: 24px;
     background-color: rgba(255, 255, 255, 0.5);
     border: 10px;
     border: 1px solid rgba(242, 237, 237, 1);
     padding: 10px;
- }
-.reviewer-card{
-  display: flex;
-  justify-content: space-between;
-padding:25px 120px ;
-margin-bottom: 50px;
 }
 
-.reviewer{
+.reviewer-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 120px;
+    margin-bottom: 50px;
+}
+
+.reviewer {
     display: flex;
     align-items: center;
 }
 
-.reviewer img{
+.reviewer img {
     width: 60px;
     height: 60px;
     border-radius: 100px;
 }
 
-.reviewer-name-date p{
-  color: rgba(0, 0, 0, 0.5);
+.reviewer-name-date p {
+    color: rgba(0, 0, 0, 0.5);
 }
 
+.webflow-titel{
+  text-align: center;
+  padding:20px;
+}
+
+.webflow-titel h4{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.webflow-titel p{
+  color: rgba(0, 0, 0, 0.5);
+}
+.webflow img {
+    width: 840px;
+    height: 364px;
+    border-radius: 48px;
+    margin: 20px 350px;
+}
