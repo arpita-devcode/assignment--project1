@@ -250,9 +250,9 @@ input[type="Email"],input[type="text"],input[type="massege"]{
     padding: 10px 20px;
     border: 2px dotted rgba(214, 221, 237, 1);
 }
-input[type="massege"]{
+input[type="massege"] 
+{
     height: 135px;
-    
 }
 label{
     margin: 12px;
@@ -262,7 +262,7 @@ label{
     width: 547px;
     height: 62px;
 }
-  /* footer style */
+  /* footer style logo */
 .footer{
     text-align: center;
     padding: 50px;
