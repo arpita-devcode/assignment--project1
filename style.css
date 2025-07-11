@@ -56,6 +56,8 @@ ul{
     text-align: center;
 }
 
+
+
 .see-it-in{
     display: flex;
     justify-content: space-between;
@@ -121,3 +123,40 @@ ul{
     color: rgba(0, 0, 0, 0.5);
     text-align: center;
 }
+
+.user-says-titel{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+ .user-container{
+    height:243px ;
+    width: 366px;
+    gap:24px ;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 10px;
+    border: 1px solid rgba(242, 237, 237, 1);
+    padding: 10px;
+ }
+.reviewer-card{
+  display: flex;
+  justify-content: space-between;
+padding:25px 120px ;
+margin-bottom: 50px;
+}
+
+.reviewer{
+    display: flex;
+    align-items: center;
+}
+
+.reviewer img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+.reviewer-name-date p{
+  color: rgba(0, 0, 0, 0.5);
+}
+
