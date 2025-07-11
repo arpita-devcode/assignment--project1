@@ -153,8 +153,7 @@ ul {
 .user-container {
     height: 243px;
     width: 366px;
-    gap: 24px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: white;
     border: 10px;
     border: 1px solid rgba(242, 237, 237, 1);
     padding: 10px;
@@ -164,7 +163,7 @@ ul {
 .reviewer-card {
     display: flex;
     justify-content: space-between;
-    padding: 25px 120px;
+    padding: 25px 150px;
     margin-bottom: 50px;
 }
 
