@@ -2,9 +2,10 @@
 
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
-    font-weight: weight;
+    font-weight: weight;      
     font-style: normal;
-}
+}   
+/* navber style */
  main{
    background-color: rgb(236, 242, 247);
  }
@@ -65,7 +66,7 @@ ul {
     text-align: center;
 }
 
-
+  /* 1st section style */
 
 .see-it-in {
     display: flex;
@@ -96,7 +97,7 @@ ul {
     color: rgba(37, 36, 50, 0.5);
 
 }
-
+  /* button 2 style */
 .action-button {
     background-color: rgba(78, 71, 255, 1);
     color: white;
@@ -112,7 +113,7 @@ ul {
     color: rgba(78, 71, 255, 1);
     border: 1px solid #4E47FF;
 }
-
+  /* section 3 style */
 .user-column {
     background-color: rgba(78, 71, 255, 0.1);
     margin: 100px;
@@ -159,7 +160,7 @@ ul {
     padding: 10px;
    
 }
-
+   /* the card design */
 .reviewer-card {
     display: flex;
     justify-content: space-between;
@@ -181,7 +182,7 @@ ul {
 .reviewer-name-date p {
     color: rgba(0, 0, 0, 0.5);
 }
-
+  /* section 4 style */
   .webflow{
     margin: 100px;
     padding: 80px 150px;
@@ -210,8 +211,8 @@ ul {
   color: rgba(0, 0, 0, 0.5);
   
 }
-
-
+ 
+  /* section 5 style */
 .form{
     display: flex;
     justify-content: space-between;
@@ -246,12 +247,12 @@ input[type="massege"]{
     height: 135px;
     
 }
-
+  /* submit button */
 .Submit{
     width: 547px;
     height: 62px;
 }
-
+  /* footer style */
 .footer{
     text-align: center;
     padding: 50px;
