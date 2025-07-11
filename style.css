@@ -200,6 +200,14 @@ ul {
 .img-webflow{
     display: flex;
     justify-content: center;
+    
+}
+.webflow button{
+     width: 159px;
+     height: 48px;
+}
+.img-webflow img{
+    border-radius: 40px;
 }
 .webflow-body h1{
     font-size: 50px;
